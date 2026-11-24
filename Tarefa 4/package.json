@@ -1,0 +1,33 @@
+{
+  "name": "s1_r5-at1_pbe1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopizarro/S1_R5-AT1_PBE1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/joaopizarro/S1_R5-AT1_PBE1/issues"
+  },
+  "homepage": "https://github.com/joaopizarro/S1_R5-AT1_PBE1#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
